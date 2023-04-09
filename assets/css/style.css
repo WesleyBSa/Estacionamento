@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+body {
+    width: 50%;
+    margin: 2rem auto;
+}
+
+div img {
+    align-items: center;
+    padding: auto;
+    margin-left: 170px;
+    align-self: center;
+    justify-content: center;
+}
+
+div {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #fefb79;
+    padding: 1.2rem;
+    text-align: center;
+}
+
+input, button {
+    text-align: center;
+    width: 60%;
+    padding: 0.6rem 0.4rem;
+    margin: 0.6rem auto;
+}
+
+button {
+    border-radius: 40px;
+    width: 30%;
+    text-decoration: none;
+    border: none;
+    display: block;
+    cursor: pointer;
+    text-align: center;
+}
+
+.success {
+    background-color: rgb(19 99 168);
+    font-size: large;
+    color: rgb(235 230 230);
+}
+
+.delete {
+    width: 40px;
+    background-color: rgb(231, 54, 54);
+    border-radius: 12px;
+    color: rgb(255, 255, 255);
+}
+
+
+table {
+    background-color: #edf8fd;
+    margin-top: .9rem;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 5px 25px;
+    text-align: center;
+    border-bottom: 1px solid #17a7b5;
+}

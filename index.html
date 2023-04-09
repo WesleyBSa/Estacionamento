@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Estacionamento</title>
+    <link rel="icon" type="image/png" href="./img/icon.png" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <div>
+        <img src="./img/estacionamento.png" alt="carros" width="300px" height="170px">
+        <input type="text" id="modelo" placeholder="MODELO DO VEÍCULO" autocomplete="off">
+        <input type="text" id="placa" placeholder="PLACA DO VEÍCULO" autocomplete="off">
+        <button id="enviar" class="success">Registrar</button>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>VEÍCULO</th>
+                <th>PLACA</th>
+                <th>ENTRADA</th>
+                <th>AÇÕES</th>
+            </tr>
+        </thead>
+        <tbody id="garagem"></tbody>
+    </table>
+</body>
+
+<script src="./assets/js/script.js"></script>
+
+</html>
